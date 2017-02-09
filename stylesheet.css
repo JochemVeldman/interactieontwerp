@@ -9,8 +9,9 @@ nav {
     color: #eeeeee;
     font-size: 24px;
     padding-left: 10%;
-    position: relative;
+    float: left;
     font-family: Montserrat, serif;
+    padding-top: 20px;
 }
 
 .tekst_navbar {
@@ -27,9 +28,27 @@ li {
     top: 20px;
 }
 
+@media screen and (max-width: 520px){
+    nav {
+        height: 100px;
+        padding-top: 20px
+    }
+    .tekst_navbar{
+        float: none;
+        padding-left: 33%;
+    }
+    .logo_tekst{
+        float: none;     
+        padding-left: 25%;
+    }
+}
+
+
+
 body {
     background-color: #f5f5f5;
 }
+
 .tekst_footer {
     text-align: center;
     color: #eeeeee;
