@@ -28,10 +28,11 @@ li {
     top: 20px;
 }
 
-@media screen and (max-width: 10000px){
+@media screen and (max-width: 600px){
     nav {
         height: 100px;
-        padding-top: 20px
+        padding-top: 20px;
+        background-color: black;
     }
     .tekst_navbar{
         float: none;
