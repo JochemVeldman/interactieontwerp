@@ -28,7 +28,8 @@ li {
     top: 20px;
 }
 
-@media screen and (max-device-width: 8000px){
+/* Responsive voor telefoon*/
+@media screen and (max-device-width: 800px){
     nav {
         height: 100px;
         padding-top: 20px;
@@ -44,6 +45,22 @@ li {
     }
 }
 
+/* Responsive voor desktop */
+
+@media screen and (max-width: 500px){
+    nav {
+        height: 1000px;
+        padding-top: 20px;
+    }
+    .tekst_navbar{
+        float: none;
+        padding-left: 33%;
+    }
+    .logo_tekst{
+        float: none;     
+        padding-left: 25%;
+    }
+}
 
 
 body {
