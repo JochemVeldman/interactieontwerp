@@ -31,7 +31,7 @@ li {
 /* Responsive voor telefoon*/
 @media screen and (max-device-width: 800px){
     nav {
-        height: 100px;
+        height: 1000px;
         padding-top: 20px;
         background-color: black;
     }
