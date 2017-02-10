@@ -28,7 +28,7 @@ li {
     top: 20px;
 }
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 10000px){
     nav {
         height: 100px;
         padding-top: 20px
@@ -88,3 +88,30 @@ footer {
     margin-top: 50px;
     margin-bottom: 5px;
 }
+
+p {
+    color: #eeeeee;
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 3px;
+}
+.linknaarproducten {
+    width: 100px;
+    height: 25px;
+    background-color: #05668D;
+    margin-left: 40%;
+    margin-top: 170px;
+    display: inline-block;
+}
+
+.linknaarproducten:hover {
+    background-color: aqua;
+}
+
+
+
+
+
+
+
