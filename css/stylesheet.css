@@ -28,7 +28,7 @@ li {
     top: 20px;
 }
 
-/* Responsive voor telefoon*/
+/* Navbar responsive voor telefoon*/
 @media screen and (max-device-width: 800px){
     nav {
         height: 200px;
@@ -46,7 +46,7 @@ li {
     }
 }
 
-/* Responsive voor desktop */
+/* Navbar responsive voor desktop */
 
 @media screen and (max-width: 500px){
     nav {
@@ -173,6 +173,8 @@ p {
         padding: 0px;
         margin: 0px;
         margin-top: 10px;
+        height: 300px;
+        font-size: 40px;
     }
     .producten {
         width: 100%;
