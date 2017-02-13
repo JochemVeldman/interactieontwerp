@@ -78,7 +78,7 @@ body {
 footer {
     background-color: #37474f;
     width: 100%;
-    margin-top: 1000px;
+    margin-top: 100px;
     font-family: Montserrat, serif;
 }
 
@@ -167,6 +167,12 @@ p {
     }
 }
 
+.tekstvoorindeopdrachten {
+    font-size: 20px;
+    font-family: Montserrat, serif;
+    padding: 15px;
+}
+
 @media screen and (max-device-width: 800px){
     .blokbovenproducten {
         width: 100%;
@@ -194,10 +200,4 @@ p {
     .tekstvoorindeopdrachten{
         font-size: 100000px;
     }
-}
-
-.tekstvoorindeopdrachten {
-    font-size: 20px;
-    font-family: Montserrat, serif;
-    padding: 15px;
 }
