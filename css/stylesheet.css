@@ -138,12 +138,37 @@ p {
     padding-top: 30px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
+    .blokbovenproducten {
+        width: 70%;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 50px;
+        margin-left: 15%;
+    }
+    .producten {
+        width: 70%;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 5px;
+        height: 220px;
+        margin-left: 15%;
+    }
+    .logo_tekst{
+        float: none;     
+        padding-left: 25%;
+    }
+    .linknaarproducten {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 600px){
     .blokbovenproducten {
         width: 100%;
         padding: 0px;
         margin: 0px;
-        margin-top: 10px;
+        margin-top: 50px;
     }
     .producten {
         width: 100%;
@@ -160,6 +185,7 @@ p {
         margin-top: 0px;
     }
 }
+
 
 @media screen and (max-width: 1200px){
     .linknaarproducten {
