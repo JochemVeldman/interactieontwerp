@@ -56,15 +56,12 @@ footer {
 .producten {
     background-color: #CBE3CC;
     width: 50%;
-    height: 200px;
     margin-left: 25%;
 }
 
 .afbeeldinghomepagina {
     height: 86%;
     width: 100%;
-    
-    
 }
 
 .tekstmetdriekopjes {
@@ -73,8 +70,7 @@ footer {
 
 .blokbovenproducten {
     width: 50%;
-    background-color: #009688;
-    height: 100px;
+    background-color: #009688;  
     margin-left: 25%;
     margin-top: 50px;
     margin-bottom: 5px;
@@ -96,10 +92,11 @@ p {
     padding-top: 10px;
     display: inline-block;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .linknaarproducten:hover {
-    background-color: aqua;
+    background-color: #3A78B2;
 }
 
 .welkeweekwelkeopdracht {
@@ -108,58 +105,37 @@ p {
     font-size: 30px;
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-@media screen and (max-width: 1000px){
-    .blokbovenproducten {
-        width: 70%;
-        padding: 0px;
-        margin: 0px;
-        margin-top: 50px;
-        margin-left: 15%;
+    @media screen and (max-width: 1000px){
+        .blokbovenproducten {
+            width: 70%;
+            padding: 0px;
+            margin-top: 50px;
+            margin-left: 15%;
+        }
+        .producten {
+            width: 70%;
+            margin-top: 5px;
+            margin-left: 15%;
+        }
     }
-    .producten {
-        width: 70%;
-        padding: 0px;
-        margin: 0px;
-        margin-top: 5px;
-        height: 220px;
-        margin-left: 15%;
-    }
-    .linknaarproducten {
-        margin-top: 0px;
-    }
-}
 
-@media screen and (max-width: 600px){
-    .blokbovenproducten {
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
-        margin-top: 50px;
-    }
-    .producten {
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
-        margin-top: 5px;
-        height: 220px;
-    }
-    .logo_tekst{
-        float: none;     
-        padding-left: 25%;
-    }
-    .linknaarproducten {
-        margin-top: 0px;
-    }
-}
+    @media screen and (max-width: 600px){
+        .blokbovenproducten {
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            margin-top: 50px;
+        }
+        .producten {
+            width: 100%;
+            margin: 0px;
+            margin-top: 5px;
+        }
 
-
-@media screen and (max-width: 1200px){
-    .linknaarproducten {
-        margin-top: 0px;
     }
-}
 
 .tekstvoorindeopdrachten {
     font-size: 20px;
@@ -169,7 +145,6 @@ p {
     float: right;
     width: 75%;
 }
-
 
 .fotobijopdracht{
     height: 150px;
