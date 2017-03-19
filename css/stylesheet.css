@@ -170,34 +170,6 @@ p {
     width: 75%;
 }
 
-@media screen and (max-device-width: 800px){
-    .blokbovenproducten {
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
-        margin-top: 10px;
-        height: 200px;
-        margin-bottom: 10px;
-    }
-    .producten {
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
-        margin-top: 5px;
-        margin-bottom: 20px;
-        height: 300px;
-    }
-    .logo_tekst{
-        float: none;     
-        padding-left: 25%;
-    }
-    .welkeweekwelkeopdracht {
-        font-size: 80px;
-    }
-    .tekstvoorindeopdrachten{
-        font-size: 30px;
-    }
-}
 .fotobijopdracht{
     height: 150px;
     float: left;
