@@ -95,6 +95,18 @@ p {
     margin-bottom: 20px;
 }
 
+.linknaarproducten2 {
+    width: 120px;
+    height: 40px;
+    background-color: #05668D;
+    margin-left: 47%;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
 .linknaarproducten:hover {
     background-color: #3A78B2;
 }
