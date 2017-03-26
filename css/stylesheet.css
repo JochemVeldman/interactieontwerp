@@ -226,11 +226,14 @@ p {
         }
         .blokbovenkiesweekwrapper{
             margin-bottom: 10px;
+            height: 35%;
         }
     }
 
-    @media screen and (max-device-width: 800px){
+    @media screen and (max-device-width: 321px){
         .blokbovenkiesweekwrapper{
-            height: 60%;
+            margin-bottom: 10px;
+            height: 40%;
         }
     }
+    
