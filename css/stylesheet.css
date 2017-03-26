@@ -237,3 +237,8 @@ p {
         }
     }
     
+        @media screen and (max-device-width: 400px){
+        .linknaarproducten2 {
+            margin-left: 32%;
+        }
+    }
