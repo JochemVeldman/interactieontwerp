@@ -228,3 +228,9 @@ p {
             height: 35%;
         }
     }
+
+    @media screen and (max-device-width: 800px){
+        .blokbovenkiesweekwrapper{
+            height: 50%;
+        }
+    }
