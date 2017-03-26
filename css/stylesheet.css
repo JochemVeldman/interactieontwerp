@@ -225,13 +225,12 @@ p {
             width: 46%;
         }
         .blokbovenkiesweekwrapper{
-            height: 35%;
-            margin-bottom: 1000px;
+            margin-bottom: 10px;
         }
     }
 
     @media screen and (max-device-width: 800px){
         .blokbovenkiesweekwrapper{
-            height: 50%;
+            height: 40%;
         }
     }
