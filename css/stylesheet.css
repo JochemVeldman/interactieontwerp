@@ -69,7 +69,7 @@ footer {
 }
 
 .afbeeldinghomepagina {
-    height: 86%;
+    height: 65%;
     width: 100%;
 }
 
@@ -147,7 +147,7 @@ p {
 }
 
 .footerweekpagina {
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .kiesweek {
@@ -179,6 +179,64 @@ p {
     margin-left: 2%;
     margin-top: 30px;
     float: left;
+}
+
+.TekstHomePagina {
+    color: black;
+    float: left;
+    text-align: left;
+}
+
+#TekstHomePaginaWrapper1 {
+    width: 28%;
+    height: 34%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 4%;
+    color: #2C3539;
+}
+
+#TekstHomePaginaWrapper2 {
+    width: 28%;
+    height: 34%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 4%;
+    color: #2C3539;
+}
+
+#TekstHomePaginaWrapper3 {
+    width: 28%;
+    height: 34%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 4%;
+    color: #2C3539;
+}
+
+
+#GroteWrapperVoorHomePagina {
+    width: 100%;
+    height: 35%;
+}
+
+.KorteTekstBovenBijHomepagina {
+    color: #2C3539;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.AfbeeldingTekstHomepagina {
+    width: 60px;
+    height: 60px;
+    margin-left: 40%;
+}
+
+#FooterHomepagina {
+    background-color: #37474f;
+    width: 100%;
+    font-family: Montserrat, serif;
+    margin-top: 125px;
 }
 
     @media screen and (max-width: 1000px){
@@ -227,6 +285,89 @@ p {
             margin-left: 15%;
         } .linknaarproducten2 {
             margin-left: 38%;
+        } #TekstHomePaginaWrapper1 {
+            width: 60%;
+            height: 50%;
+            float: left;
+            margin-top: 2%;
+            margin-left: 22%;
+            margin-top: 1%;
+        }#TekstHomePaginaWrapper2 {
+            width: 60%;
+            height: 50%;
+            float: left;
+            margin-top: 2%;
+            margin-left: 22%;
+            margin-top: 150px;
+        } #TekstHomePaginaWrapper3 {
+            width: 60%;
+            height: 50%;
+            float: left;
+            margin-top: 2%;
+            margin-left: 22%;
+            margin-top: 300px;
+        }  #GroteWrapperVoorHomePagina {
+            width: 100%;
+            height: 40%;
+        }        
+    }
+
+    @media screen and (max-width: 1300px){
+        #FooterHomepagina {
+            margin-top: 150px;
+        }
+    }
+    
+    @media screen and (max-width: 1100px){
+        #FooterHomepagina {
+            margin-top: 200px;
+        }
+    }
+    @media screen and (max-width: 1100px){
+        #FooterHomepagina {
+            margin-top: 225px;
+        }
+    }
+
+    @media screen and (max-width: 900px){
+        #FooterHomepagina {
+            margin-top: 250px;
+        }
+    }
+
+    @media screen and (max-width: 800px){
+        #FooterHomepagina {
+            margin-top: 275px;
+        }
+    }
+
+    @media screen and (max-width: 700px){
+        #FooterHomepagina {
+            margin-top: 300px;
+        }
+    }
+
+    @media screen and (max-width: 675px){
+        #FooterHomepagina {
+            margin-top: 325px;
+        }
+    }
+
+    @media screen and (max-width: 650px){
+        #FooterHomepagina {
+            margin-top: 350px;
+        }
+    }
+
+    @media screen and (max-width: 625px){
+        #FooterHomepagina {
+            margin-top: 400px;
+        }
+    }
+    
+    @media screen and (max-width: 600px){
+        #FooterHomepagina {
+            margin-top: 920px;
         }
     }
 
