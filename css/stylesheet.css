@@ -427,7 +427,6 @@ p {
   transform: scaleX(1);
 }
 
-
 .linknaarproducten {
   display: inline-block;
   vertical-align: middle;
@@ -440,6 +439,7 @@ p {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
 .linknaarproducten:before {
   content: "";
   position: absolute;
@@ -460,9 +460,11 @@ p {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .linknaarproducten:hover, .linknaarproducten:focus, .linknaarproducten:active {
   color: white;
 }
+
 .linknaarproducten:hover:before, .linknaarproducten:focus:before, .linknaarproducten:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
